@@ -43,9 +43,30 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* djang0
+* Create the environment using venv
   ```sh
-  pip install django==5.0.8
+  python -m venv .venv  
+  ```
+* Change the directory
+  ```sh
+  cd .\.venv\Scripts\
+  ```
+* Invoke the below command to activate the .venv in Windows power shell/ vs code
+  ```sh
+  .\Activate.ps1
+  ```
+* Install the Django
+  ```sh
+  pip install django
+  ```
+* Make migrations to create the models
+  ```sh
+  python Manage.py makemigrations
+  python Manage.py migrate
+  ```
+* Run the Django app
+  ```sh
+  pythom Manage.py runserver 
   ```
 
 
