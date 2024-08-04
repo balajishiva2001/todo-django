@@ -12,16 +12,7 @@
 
 This is the basic todo application which has the following features:
 *  Create the Todo to have the title and description.
-*  We have the todo view where we can mark the task completed / delete
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-
-
+*  We have the todo view where we can mark the task completed/delete
 
 
 <!-- GETTING STARTED -->
