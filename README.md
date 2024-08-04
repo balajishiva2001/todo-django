@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <h3 align="center">Todo Django App</h3>
-
+</div>
 
 
 
