@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <h3 align="center">Todo Django App</h3>
+  <h1 align="center">Todo Django App</h1>
 </div>
 
 
