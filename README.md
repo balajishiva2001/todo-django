@@ -42,62 +42,64 @@ Before getting started, ensure you have:
 2️⃣ Clone the Repository
 
 Open your terminal or Git Bash and run:
-
+```bash
 git clone https://github.com/balajishiva2001/todo-django.git  
 cd todo-django
+```
 
 ---
 
 3️⃣ Create a Virtual Environment
-
+```bash
 python -m venv venv  
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+```
 
 ---
 
 4️⃣ Install Dependencies
-
+```bash
 pip install -r requirements.txt
+```
 
 ---
 
 5️⃣ Apply Migrations
-
+```bash
 python manage.py migrate
+```
 
 ---
 
 6️⃣ Run the Application
 
 Start the Django development server:
-
+```bash
 python manage.py runserver
-
+```
 The app will be running at http://localhost:8000
 
 ---
 
 7️⃣ Test the APIs
 
-You can test the API endpoints using tools like Postman or curl.
+Use tools like **Postman** or `curl` to test the endpoints:
 
-Basic available endpoints:
+| Method | Endpoint            | Description                          |
+|--------|---------------------|--------------------------------------|
+| POST   | `/api/auth/login`   | Authenticate user & get JWT token    |
+| GET    | `/api/todos`        | Get all todo items                   |
+| GET    | `/api/todos/{id}`   | Get todo item by ID                  |
+| POST   | `/api/todos`        | Create a new todo item               |
+| PUT    | `/api/todos/{id}`   | Update existing todo item            |
+| DELETE | `/api/todos/{id}`   | Delete a todo item                   |
 
-Method   Endpoint           Description  
-------   ------------------ --------------------------  
-POST     /api/auth/login    Authenticate user & get JWT token  
-GET      /api/todos         Get all todo items  
-GET      /api/todos/{id}    Get todo item by ID  
-POST     /api/todos         Create a new todo item  
-PUT      /api/todos/{id}    Update existing todo item  
-DELETE   /api/todos/{id}    Delete a todo item  
-
-⚠️ Note: All `/api/todos` endpoints require an Authorization header with the JWT token except `/api/auth/login`.
+> ⚠️ **Note:** All `/api/todos` endpoints require an `Authorization` header with a valid JWT token, **except** `/api/auth/login`.
 
 ---
 
 📂 Project Structure
-
+```
 todo-django/  
 ├── todo/  
 │   ├── migrations/          # Database migrations  
@@ -108,6 +110,7 @@ todo-django/
 ├── manage.py                # Django project management  
 ├── requirements.txt         # Python dependencies  
 └── README.md                # This documentation  
+```
 
 ---
 
