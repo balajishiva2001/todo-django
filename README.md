@@ -1,27 +1,31 @@
+# ✅ Todo Django App
 
-<a id="readme-top"></a>
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <h1 align="center">Todo Django App</h1>
-</div>
+A simple yet functional task‑management application built using **Django**. Users can add tasks, mark them complete, or delete them — ideal for learning Django or as a foundation for a larger project.
 
+---
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+## 🔧 Features
 
-This is the basic todo application which has the following features:
-*  Create the Todo to have the title and description.
-*  We have the todo view where we can mark the task completed/delete
+- 📝 Create tasks with a title and description  
+- 📋 View a list of all tasks  
+- ✔️ Mark tasks as complete  
+- 🗑️ Delete tasks  
+- ✅ Lightweight, clean UI using Django templates  
+- 🧮 Built with Django’s MVC (MTV) architecture
 
+---
 
-<!-- GETTING STARTED -->
-## Getting Started
+## 📦 Tech Stack
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+- **Backend**: Django (Python)  
+- **Database**: SQLite (default for development)  
+- **Frontend**: Django Templates, HTML & CSS  
 
-### Prerequisites
+---
+
+## 🛠️ Setup Instructions
+
+### 1. Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
 * Create a folder
@@ -57,8 +61,6 @@ This is an example of how to list things you need to use the software and how to
     ```sh
     pythom Manage.py runserver 
     ```
-
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
